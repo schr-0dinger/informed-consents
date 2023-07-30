@@ -1,0 +1,46 @@
+body {
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: "Space Mono", monospace;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: cornflowerblue;
+  }
+  
+  .title {
+    color: #f77f00;
+  }
+  
+  .transparent {
+    background-color: transparent !important;
+  }
+  
+  .glass {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75) !important;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+  }
+  
+  .glass2 {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75) !important;
+    border: 0px;
+    color: #fff;
+  }
+  
+  .format {
+    font-size: 0.825em;
+    color: #fff;
+  }
+  
+  .white{
+    color: #fff !important;
+  }
+  
+.responsive-iframe {
+    width: 100%; /* Fill the entire column width */
+    height: 220%; /* Fill the available height within the column */
+    border: none; /* Optional: Remove iframe border */
+}

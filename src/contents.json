@@ -1,0 +1,169 @@
+{
+  "index": {
+    "anaesthesia": [],
+    "cardiology": [
+      {
+        "procedure_name": "angioplasty",
+        "file": "angioplasty.txt"
+      },
+      {
+        "procedure_name": "electrocardiogram",
+        "file": "electrocardiogram.txt"
+      }
+    ],
+    "emergency": [],
+    "ent": [],
+    "dermatology": [],
+    "gastroenterology": [],
+    "general_medicine": [],
+    "general_surgery": [
+      {
+        "procedure_name": "Rectal Polyp",
+        "file": "rectal_polyp.txt"
+      },
+      {
+        "procedure_name": "Pilonidal Sinus",
+        "file": "pilonidal_sinus.txt"
+      },
+      {
+        "procedure_name": "Carcinoma of Penis",
+        "file": "carcinoma_penis.txt"
+      },
+      {
+        "procedure_name": "Rectal Prolapse",
+        "file": "rectal_prolapse.txt"
+      },
+      {
+        "procedure_name": "Split Skin Grafting",
+        "file": "split_skin_grafting.txt"
+      },
+      {
+        "procedure_name": "Feeding Gastrostomy",
+        "file": "feeding_gastrostomy.txt"
+      },
+      {
+        "procedure_name": "Abdominoperineal Resection (APR)",
+        "file": "ap_resction.txt"
+      },
+      {
+        "procedure_name": "Branchial Cyst Excision",
+        "file": "branchial_cyst_excision.txt"
+      },
+      {
+        "procedure_name": "Phimosis",
+        "file": "phimosis.txt"
+      },
+      {
+        "procedure_name": "Submandibular Gland Exploration",
+        "file": "submandibular_gland_exploration.txt"
+      },
+      {
+        "procedure_name": "Intestinal Obstruction",
+        "file": "intestinal_obstruction.txt"
+      },
+      {
+        "procedure_name": "Lumpectomy",
+        "file": "lumpectomy.txt"
+      },
+      {
+        "procedure_name": "Hemorrhoidectomy",
+        "file": "hemorrhoidectomy.txt"
+      },
+      {
+        "procedure_name": "Hydrocele",
+        "file": "hydrocele.txt"
+      },
+      {
+        "procedure_name": "Cystogastrostomy",
+        "file": "cystogastrostomy.txt"
+      },
+      {
+        "procedure_name": "Laparoscopic Cholecystectomy",
+        "file": "laparoscopic_cholecystectomy.txt"
+      },
+      {
+        "procedure_name": "Varicocele",
+        "file": "varicocele.txt"
+      },
+      {
+        "procedure_name": "Parotidectomy",
+        "file": "parotidectomy.txt"
+      },
+      {
+        "procedure_name": "Orchidectomy",
+        "file": "orchidectomy.txt"
+      },
+      {
+        "procedure_name": "Varicose Vein Ligation",
+        "file": "varicose_vein_ligation.txt"
+      },
+      {
+        "procedure_name": "Thyroidectomy",
+        "file": "thyroidectomy.txt"
+      },
+      {
+        "procedure_name": "Modified Radical Neck Dissection (MRND)",
+        "file": "mrnd.txt"
+      },
+      {
+        "procedure_name": "Torsion of Testis",
+        "file": "torsion_testis.txt"
+      },
+      {
+        "procedure_name": "Perforation Peritonitis",
+        "file": "perforation_peritonitis.txt"
+      },
+      {
+        "procedure_name": "Hernia Repair",
+        "file": "hernia_repair.txt"
+      },
+      {
+        "procedure_name": "Modified Radical Mastectomy (MRM)",
+        "file": "mrm.txt"
+      },
+      {
+        "procedure_name": "Above Knee/ Below Knee Amputation (AK/BK Amputation)",
+        "file": "ak_bk_amputation.txt"
+      },
+      {
+        "procedure_name": "Appendectomy",
+        "file": "appendectomy.txt"
+      },
+      {
+        "procedure_name": "Laparoscopic Hernia Repair",
+        "file": "laparoscopic_hernia_repair.txt"
+      },
+      {
+        "procedure_name": "Hemicolectomy",
+        "file": "hemicolectomy.txt"
+      },
+      {
+        "procedure_name": "Gastrectomy",
+        "file": "gastrectomy.txt"
+      },
+      {
+        "procedure_name": "Laparoscopic Appendectomy",
+        "file": "laparoscopic_appendectomy.txt"
+      },
+      {
+        "procedure_name": "Whipple's Procedure",
+        "file": "whipples_procedure.txt"
+      },
+      {
+        "procedure_name": "Ovarian Neoplasm",
+        "file": "ovarian_neoplasm.txt"
+      }
+    ],
+    "misc": [],
+    "nephrology": [],
+    "neurology": [],
+    "obstetrics_gynecology": [],
+    "ophthalmology": [],
+    "orthopedics": [],
+    "psychiatry": [],
+    "pediatrics": [],
+    "pulmonology": [],
+    "radiology": [],
+    "urology": []
+  }
+}

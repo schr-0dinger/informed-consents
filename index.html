@@ -1,11 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300;400&family=Space+Mono&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="src/style.css">
+    <script src="src/main.js"></script>
     <title>Informed Consents</title>
 </head>
+
 <body>
-    
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">
+            <h5 class="mx-3"></h5>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto glass">
+                <li class="nav-item">
+                    <a class="nav-link" href="">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">About</a>
+                </li>
+            </ul>
+    </nav>
+    <div class="container">
+        <div class="glass px-5 py-3 format">
+            <h3 class="white" style="font-family: 'Londrina Solid', cursive;">Informed Consents</h3>
+            <span class="badge rounded-pill bg-danger">For Medical and Surgical procedures</span>
+            <span class="badge rounded-pill bg-success">മലയാളം</span>
+        </div>
+        <div class="glass mb-3 mt-2 px-5 pt-3 pb-5">
+            <!-- <label for="" class="form-label">Search</label> -->
+
+            <input type="search" class="form-control my-1" name="search" id="searchbar" aria-describedby="helpId"
+                placeholder="Search Here">
+            <small id="helpId" class="form-text text-primary">Enter procedure name</small>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                    <iframe class="responsive-iframe glass" src="src/data/gen_surg/rectal_polyp.html"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
+
 </html>
