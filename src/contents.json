@@ -4,11 +4,11 @@
     "cardiology": [
       {
         "procedure_name": "angioplasty",
-        "file": "angioplasty.txt"
+        "file": "/src/data/cardio/angioplasty.html"
       },
       {
         "procedure_name": "electrocardiogram",
-        "file": "electrocardiogram.txt"
+        "file": "/src/data/cardio/electrocardiogram.html"
       }
     ],
     "emergency": [],
@@ -19,139 +19,139 @@
     "general_surgery": [
       {
         "procedure_name": "Rectal Polyp",
-        "file": "rectal_polyp.txt"
+        "file": "/src/data/gen_surg/rectal_polyp.html"
       },
       {
         "procedure_name": "Pilonidal Sinus",
-        "file": "pilonidal_sinus.txt"
+        "file": "/src/data/gen_surg/pilonidal_sinus.html"
       },
       {
         "procedure_name": "Carcinoma of Penis",
-        "file": "carcinoma_penis.txt"
+        "file": "/src/data/gen_surg/carcinoma_penis.html"
       },
       {
         "procedure_name": "Rectal Prolapse",
-        "file": "rectal_prolapse.txt"
+        "file": "/src/data/gen_surg/rectal_prolapse.html"
       },
       {
         "procedure_name": "Split Skin Grafting",
-        "file": "split_skin_grafting.txt"
+        "file": "/src/data/gen_surg/split_skin_grafting.html"
       },
       {
         "procedure_name": "Feeding Gastrostomy",
-        "file": "feeding_gastrostomy.txt"
+        "file": "/src/data/gen_surg/feeding_gastrostomy.html"
       },
       {
         "procedure_name": "Abdominoperineal Resection (APR)",
-        "file": "ap_resction.txt"
+        "file": "/src/data/gen_surg/ap_resction.html"
       },
       {
         "procedure_name": "Branchial Cyst Excision",
-        "file": "branchial_cyst_excision.txt"
+        "file": "/src/data/gen_surg/branchial_cyst_excision.html"
       },
       {
         "procedure_name": "Phimosis",
-        "file": "phimosis.txt"
+        "file": "/src/data/gen_surg/phimosis.html"
       },
       {
         "procedure_name": "Submandibular Gland Exploration",
-        "file": "submandibular_gland_exploration.txt"
+        "file": "/src/data/gen_surg/submandibular_gland_exploration.html"
       },
       {
         "procedure_name": "Intestinal Obstruction",
-        "file": "intestinal_obstruction.txt"
+        "file": "/src/data/gen_surg/intestinal_obstruction.html"
       },
       {
         "procedure_name": "Lumpectomy",
-        "file": "lumpectomy.txt"
+        "file": "/src/data/gen_surg/lumpectomy.html"
       },
       {
         "procedure_name": "Hemorrhoidectomy",
-        "file": "hemorrhoidectomy.txt"
+        "file": "/src/data/gen_surg/hemorrhoidectomy.html"
       },
       {
         "procedure_name": "Hydrocele",
-        "file": "hydrocele.txt"
+        "file": "/src/data/gen_surg/hydrocele.html"
       },
       {
         "procedure_name": "Cystogastrostomy",
-        "file": "cystogastrostomy.txt"
+        "file": "/src/data/gen_surg/cystogastrostomy.html"
       },
       {
         "procedure_name": "Laparoscopic Cholecystectomy",
-        "file": "laparoscopic_cholecystectomy.txt"
+        "file": "/src/data/gen_surg/laparoscopic_cholecystectomy.html"
       },
       {
         "procedure_name": "Varicocele",
-        "file": "varicocele.txt"
+        "file": "/src/data/gen_surg/varicocele.html"
       },
       {
         "procedure_name": "Parotidectomy",
-        "file": "parotidectomy.txt"
+        "file": "/src/data/gen_surg/parotidectomy.html"
       },
       {
         "procedure_name": "Orchidectomy",
-        "file": "orchidectomy.txt"
+        "file": "/src/data/gen_surg/orchidectomy.html"
       },
       {
         "procedure_name": "Varicose Vein Ligation",
-        "file": "varicose_vein_ligation.txt"
+        "file": "/src/data/gen_surg/varicose_vein_ligation.html"
       },
       {
         "procedure_name": "Thyroidectomy",
-        "file": "thyroidectomy.txt"
+        "file": "/src/data/gen_surg/thyroidectomy.html"
       },
       {
         "procedure_name": "Modified Radical Neck Dissection (MRND)",
-        "file": "mrnd.txt"
+        "file": "/src/data/gen_surg/mrnd.html"
       },
       {
         "procedure_name": "Torsion of Testis",
-        "file": "torsion_testis.txt"
+        "file": "/src/data/gen_surg/torsion_testis.html"
       },
       {
         "procedure_name": "Perforation Peritonitis",
-        "file": "perforation_peritonitis.txt"
+        "file": "/src/data/gen_surg/perforation_peritonitis.html"
       },
       {
         "procedure_name": "Hernia Repair",
-        "file": "hernia_repair.txt"
+        "file": "/src/data/gen_surg/hernia_repair.html"
       },
       {
         "procedure_name": "Modified Radical Mastectomy (MRM)",
-        "file": "mrm.txt"
+        "file": "/src/data/gen_surg/mrm.html"
       },
       {
         "procedure_name": "Above Knee/ Below Knee Amputation (AK/BK Amputation)",
-        "file": "ak_bk_amputation.txt"
+        "file": "/src/data/gen_surg/ak_bk_amputation.html"
       },
       {
         "procedure_name": "Appendectomy",
-        "file": "appendectomy.txt"
+        "file": "/src/data/gen_surg/appendectomy.html"
       },
       {
         "procedure_name": "Laparoscopic Hernia Repair",
-        "file": "laparoscopic_hernia_repair.txt"
+        "file": "/src/data/gen_surg/laparoscopic_hernia_repair.html"
       },
       {
         "procedure_name": "Hemicolectomy",
-        "file": "hemicolectomy.txt"
+        "file": "/src/data/gen_surg/hemicolectomy.html"
       },
       {
         "procedure_name": "Gastrectomy",
-        "file": "gastrectomy.txt"
+        "file": "/src/data/gen_surg/gastrectomy.html"
       },
       {
         "procedure_name": "Laparoscopic Appendectomy",
-        "file": "laparoscopic_appendectomy.txt"
+        "file": "/src/data/gen_surg/laparoscopic_appendectomy.html"
       },
       {
         "procedure_name": "Whipple's Procedure",
-        "file": "whipples_procedure.txt"
+        "file": "/src/data/gen_surg/whipples_procedure.html"
       },
       {
         "procedure_name": "Ovarian Neoplasm",
-        "file": "ovarian_neoplasm.txt"
+        "file": "/src/data/gen_surg/ovarian_neoplasm.html"
       }
     ],
     "misc": [],
