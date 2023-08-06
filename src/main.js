@@ -1,11 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
   const searchInput = document.getElementById("searchbar");
   const resultBox = document.getElementById("resultbox");
-
   // Function to perform the search
   function performSearch(query, procedures) {
     const lowerCaseQuery = query.toLowerCase();
-    return procedures.filter(procedure =>
+    return procedures.filter((procedure) =>
       procedure.procedure_name.toLowerCase().includes(lowerCaseQuery)
     );
   }
@@ -23,12 +22,15 @@ document.addEventListener("DOMContentLoaded", () => {
     if (results.length === 0) {
       displayNoResults();
     } else {
-      results.forEach(result => {
+      results.forEach((result) => {
         const { procedure_name, category, file } = result;
 
-        const procedure_name_corrected = procedure_name.toLowerCase()
-        .replace(/[\s\/\(\)\&\+\'\"\`\:\;\<\>]/g, "")
-        .toString();
+        const currentUrl = window.location.href;
+
+        const procedure_name_corrected = procedure_name
+          .toLowerCase()
+          .replace(/[\s\/\(\)\&\+\'\"\`\:\;\<\>]/g, "")
+          .toString();
 
         const resultItem = document.createElement("div");
         // resultItem.innerHTML = `<p><strong>${procedure_name}</strong></p>
@@ -40,8 +42,8 @@ document.addEventListener("DOMContentLoaded", () => {
     </div>
     
     <!-- The Modal -->
-    <div class="modal mt-5" id="${procedure_name_corrected}Id">
-      <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal mt-3" id="${procedure_name_corrected}Id">
+      <div class="modal-dialog">
         <div class="modal-content">
 
           <div class="modal-header">
@@ -50,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
           </div>
     
           <div class="modal-body">
-           <iframe src="${file}" width="100%" height="550"></iframe>
+           <iframe src="${currentUrl}${file}" width="100%" height="550"></iframe>
             </div>
     
           <div class="modal-footer">
@@ -70,10 +72,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Fetch and process data
   fetch("src/contents.json")
-    .then(response => response.json())
-    .then(jsonData => {
-      const procedures = Object.entries(jsonData.index).flatMap(([category, procedureList]) =>
-        procedureList.map(procedure => ({ category, ...procedure }))
+    .then((response) => response.json())
+    .then((jsonData) => {
+      const procedures = Object.entries(jsonData.index).flatMap(
+        ([category, procedureList]) =>
+          procedureList.map((procedure) => ({ category, ...procedure }))
       );
 
       // Event listener for input changes
@@ -84,5 +87,5 @@ document.addEventListener("DOMContentLoaded", () => {
         displayResults(searchResults.length === 0 ? [] : searchResults);
       });
     })
-    .catch(error => console.error("Error fetching JSON:", error));
+    .catch((error) => console.error("Error fetching JSON:", error));
 });
