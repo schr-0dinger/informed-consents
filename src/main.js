@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Function to display "No results found" message
   function displayNoResults() {
     resultBox.innerHTML = `<div class="alert alert-warning">
-    <strong> സോറി. ഇങ്ങനെ സമ്മതപത്രം ഇവിടെയില്ല </strong> </div>`;
+    <strong> സോറി. ഇതിന്‍റെ സമ്മതപത്രം ഇവിടെയില്ല 😢 </strong> </div>`;
   }
 
   // Function to display search results in the resultBox

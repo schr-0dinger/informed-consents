@@ -152,6 +152,14 @@
       {
         "procedure_name": "Ovarian Neoplasm",
         "file": "/src/data/gen_surg/ovarian_neoplasm.html"
+      },
+      {
+        "procedure_name": "Fistula in Ano",
+        "file": "/src/data/gen_surg/fistula_ano.html"
+      },
+      {
+        "procedure_name": "Esophagectomy",
+        "file": "/src/data/gen_surg/esophagectomy.html"
       }
     ],
     "misc": [],
