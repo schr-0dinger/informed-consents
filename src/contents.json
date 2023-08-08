@@ -1,16 +1,7 @@
 {
   "index": {
     "anaesthesia": [],
-    "cardiology": [
-      {
-        "procedure_name": "angioplasty",
-        "file": "/src/data/cardio/angioplasty.html"
-      },
-      {
-        "procedure_name": "electrocardiogram",
-        "file": "/src/data/cardio/electrocardiogram.html"
-      }
-    ],
+    "cardiology": [],
     "emergency": [],
     "ent": [],
     "dermatology": [],
@@ -38,7 +29,7 @@
         "file": "/src/data/gen_surg/split_skin_grafting.html"
       },
       {
-        "procedure_name": "Feeding Gastrostomy",
+        "procedure_name": "Feeding Gastrostomy/ Jejunostomy",
         "file": "/src/data/gen_surg/feeding_gastrostomy.html"
       },
       {
@@ -160,6 +151,14 @@
       {
         "procedure_name": "Esophagectomy",
         "file": "/src/data/gen_surg/esophagectomy.html"
+      },
+      {
+        "procedure_name": "Soft Tissue Sarcoma",
+        "file": "/src/data/gen_surg/soft_tissue_sarcoma.html"
+      },
+      {
+        "procedure_name": "Incisional / Ventral Hernia",
+        "file": "/src/data/gen_surg/incisional_hernia.html"
       }
     ],
     "misc": [],
