@@ -25,17 +25,50 @@
         <a class="navbar-brand" href="">
             <h5 class="mx-3"></h5>
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-        </button>
+        </button> -->
+        <nav class="navbar">
+          <div class="container-fluid">
+            <a class="navbar-brand glass px-3 py-1" href="#"><i class="fa fa-bolt-lightning" ></i> Quark Station</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end bg-dark" tabindex="-1" id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Informed Consents</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <div><a class="btn btn-primary my-2" aria-current="page" href="#"><i class="fas fa-home"></i> Home</a></div>
+                  </li>
+                  <li class="nav-item">
+                    <div><a class="btn btn-primary" aria-current="page" href="src/about.html" target="_blank"><i class="fas fa-info-circle"></i> About</a></div>
+                  </li>
+                  <li>
+                    <div><a class="btn btn-primary mt-5" aria-current="page" href="#"><i class="fas fa-question-circle"></i> Request for Informed Consent </a></div>
+                  </li>
+                </ul>
+                <!-- <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form> -->
+              </div>
+            </div>
+          </div>
+        </nav>
         <div class="collapse navbar-collapse justify-content-end mx-4" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto glass">
                 <li class="nav-item">
-                    <a class="nav-link" href="">Home</a>
+                    <a class="nav-link" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="">About</a>
+                    <a class="nav-link" href="src/about.html" target="_blank">About</a>
                 </li>
             </ul>
     </nav>
@@ -56,5 +89,4 @@
     </div>
 </div>
 </body>
-
 </html>
