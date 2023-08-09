@@ -12,7 +12,9 @@ document.addEventListener("DOMContentLoaded", () => {
   // Function to display "No results found" message
   function displayNoResults() {
     resultBox.innerHTML = `<div class="alert alert-warning">
-    <strong> സോറി. ഇതിന്‍റെ സമ്മതപത്രം ഇവിടെയില്ല 😢 </strong> </div>`;
+    <strong> സോറി. ഇതിന്‍റെ സമ്മതപത്രം ഇവിടെയില്ല 😢 </strong> 
+    <div> <a href="https://forms.gle/3kdvUYi3EegR92kc8" class='btn btn-primary mt-2' target="_blank" > Request for Consent </a></div>
+    </div>`;
   }
 
   // Function to display search results in the resultBox
@@ -82,9 +84,14 @@ document.addEventListener("DOMContentLoaded", () => {
       // Event listener for input changes
       searchInput.addEventListener("input", () => {
         const searchQuery = searchInput.value;
-        const searchResults = performSearch(searchQuery, procedures);
 
-        displayResults(searchResults.length === 0 ? [] : searchResults);
+        if (searchQuery === "") {
+          // If search input is blank, clear the results
+          resultBox.innerHTML = "";
+        } else {
+          const searchResults = performSearch(searchQuery, procedures);
+          displayResults(searchResults.length === 0 ? [] : searchResults);
+        }
       });
     })
     .catch((error) => console.error("Error fetching JSON:", error));

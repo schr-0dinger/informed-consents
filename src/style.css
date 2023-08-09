@@ -37,10 +37,15 @@ body {
   
   .white{
     color: #fff !important;
+    font-size: 1.8rem;
   }
   
 .responsive-iframe {
     width: 100%; /* Fill the entire column width */
     height: 220%; /* Fill the available height within the column */
     border: none; /* Optional: Remove iframe border */
+}
+
+.badge {
+  font-size: 0.8rem;
 }

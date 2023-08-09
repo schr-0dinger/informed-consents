@@ -1,12 +1,39 @@
 {
   "index": {
-    "anaesthesia": [],
+    "anaesthesia": [
+      {
+        "procedure_name": "Intubation",
+        "file": "/src/data/anaesthesia/intubation.html"
+      },
+      {
+        "procedure_name": "Central Line Placement",
+        "file": "/src/data/anaesthesia/central_line.html"
+      }
+    ],
     "cardiology": [],
     "emergency": [],
-    "ent": [],
+    "ent": [
+      {
+        "procedure_name": "Endoscopy",
+        "file": "/src/data/ent/endoscopy.html"
+      }
+    ],
     "dermatology": [],
     "gastroenterology": [],
-    "general_medicine": [],
+    "general_medicine": [
+      {
+        "procedure_name": "Do Not Resuscitate (DNR)",
+        "file": "/src/data/gen_med/dnr.html"
+      },
+      {
+        "procedure_name": "Lumbar puncture",
+        "file": "/src/data/gen_med/lumbar_puncture.html"
+      },
+      {
+        "procedure_name": "Do Not Intubate (DNI)",
+        "file": "/src/data/gen_med/dni.html"
+      }
+    ],
     "general_surgery": [
       {
         "procedure_name": "Rectal Polyp",
@@ -159,6 +186,10 @@
       {
         "procedure_name": "Incisional / Ventral Hernia",
         "file": "/src/data/gen_surg/incisional_hernia.html"
+      },
+      {
+        "procedure_name": "Wound Debridement",
+        "file": "/src/data/gen_surg/wound_debridement.html"
       }
     ],
     "misc": [],
