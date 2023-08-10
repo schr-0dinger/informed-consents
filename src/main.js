@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", () => {
       searchInput.addEventListener("input", () => {
         const searchQuery = searchInput.value;
 
-        if (searchQuery === "") {
+        if (searchQuery.length <= 1) {
           // If search input is blank, clear the results
           resultBox.innerHTML = "";
         } else {
