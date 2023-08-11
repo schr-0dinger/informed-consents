@@ -35,6 +35,10 @@
       {
         "procedure_name": "Do Not Intubate (DNI)",
         "file": "/src/data/gen_med/dni.html"
+      },
+      {
+        "procedure_name": "Bone Marrow Aspiration Biopsy",
+        "file":"/src/data/gen_med/bone_marrow.html"
       }
     ],
     "general_surgery": [
