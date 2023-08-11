@@ -16,6 +16,9 @@
       {
         "procedure_name": "Endoscopy",
         "file": "/src/data/ent/endoscopy.html"
+      },{
+        "procedure_name": "Tongue Ulcer Biopsy",
+        "file": "/src/data/ent/tongue_ulcer_biopsy.html"
       }
     ],
     "dermatology": [],
@@ -195,9 +198,23 @@
     "misc": [],
     "nephrology": [],
     "neurology": [],
-    "obstetrics_gynecology": [],
+    "obstetrics_gynecology": [
+      {
+        "procedure_name":"Total Abdominal Hysterectomy (TAH) + Bilateral Salpingo-Oophorectomy (BSO)",
+        "file": "/src/data/obg/tah_bso.html"
+    }
+  ],
     "ophthalmology": [],
-    "orthopedics": [],
+    "orthopedics": [
+      {
+        "procedure_name":"ORIF with TBW / Cancellous screw",
+        "file":"/src/data/ortho/orif_tbw_cancellous_screw.html"
+      },
+      {
+        "procedure_name":"Trigger Finger Release",
+        "file":"/src/data/ortho/trigger_finger_release.html"
+      }
+    ],
     "psychiatry": [],
     "pediatrics": [],
     "pulmonology": [],
