@@ -199,7 +199,16 @@
         "file": "/src/data/gen_surg/wound_debridement.html"
       }
     ],
-    "misc": [],
+    "misc": [
+      {
+        "procedure_name":"High Risk consent for Surgeries",
+        "file":"/src/data/misc/high_risk.html"
+    },
+    {
+      "procedure_name":"DIL - Dangerously Ill List / Death is Likely",
+      "file":"/src/data/misc/dil.html"
+    }
+  ],
     "nephrology": [],
     "neurology": [],
     "obstetrics_gynecology": [

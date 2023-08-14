@@ -27,6 +27,26 @@
   <link rel="stylesheet" href="src/style.css">
   <script src="src/main.js"></script>
   <title>Informed Consents</title>
+  <script>
+function printHtmlFile(filePath) {
+    // Fetch the content of the HTML file
+    fetch(filePath)
+      .then(response => response.text())
+      .then(htmlContent => {
+        const printWindow = window.open('', '_blank'); // Open a new window/tab
+        printWindow.document.write(htmlContent); // Write the fetched content to the new window/tab
+        printWindow.document.close(); // Close the document write process
+        printWindow.onload = function() {
+          printWindow.print(); // Print the content
+          printWindow.close(); // Close the window/tab after printing
+        };
+      })
+      .catch(error => {
+        console.error('Error fetching HTML file:', error);
+      });
+  }
+
+  </script>
 </head>
 
 <body>
@@ -50,7 +70,7 @@
           <div class="offcanvas-header">
             <h5 class="offcanvas-title text-light" id="offcanvasNavbarLabel"
               style="font-family: 'Londrina Solid', cursive;">Informed Consents</h5>
-            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <button type="button" class="text-reset" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa fa-xmark" ></i></button>
           </div>
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
