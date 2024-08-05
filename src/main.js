@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const searchInput = document.getElementById("searchbar");
   const resultBox = document.getElementById("resultbox");
-
   // Function to perform the search
   function performSearch(query, procedures) {
     const lowerCaseQuery = query.toLowerCase();
@@ -28,8 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
       results.forEach((result) => {
         const { procedure_name, category, file } = result;
 
-        const currentUrl = window.location.origin;
-        const filePath = file.startsWith('/') ? file : `/${file}`;
+        const currentUrl = window.location.href.replace(/\/(#)?$/, '');
 
         const procedure_name_corrected = procedure_name
           .toLowerCase()
@@ -37,6 +35,9 @@ document.addEventListener("DOMContentLoaded", () => {
           .toString();
 
         const resultItem = document.createElement("div");
+        // resultItem.innerHTML = `<p><strong>${procedure_name}</strong></p>
+        //                         <p>Category: ${category}</p>
+        //                         <p>File: <a href="${file}" target="_blank">${file}</a></p>`;
         resultItem.innerHTML = `<button type="button" class="btn btn-primary my-1" data-bs-toggle="modal" data-bs-target="#${procedure_name_corrected}Id">
         ${procedure_name}
       </button>
@@ -53,18 +54,20 @@ document.addEventListener("DOMContentLoaded", () => {
           </div>
     
           <div class="modal-body">
-           <iframe src="${currentUrl}${filePath}" width="100%" height="550"></iframe>
+           <iframe src="${currentUrl}${file}" width="100%" height="550"></iframe>
             </div>
     
           <div class="modal-footer">
-            <button type="button" class="btn btn-success" onclick="printHtmlFile('${currentUrl}${filePath}')">Print</button>
+            <button type="button" class="btn btn-success" onclick="printHtmlFile('${currentUrl}${file}')">Print</button>
             <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
           </div>
     
         </div>
       </div>
     </div> 
+        
         `;
+
         resultBox.appendChild(resultItem);
       });
     }
