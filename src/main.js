@@ -27,7 +27,9 @@ document.addEventListener("DOMContentLoaded", () => {
       results.forEach((result) => {
         const { procedure_name, category, file } = result;
 
-        const currentUrl = window.location.href.replace(/\/(#)?$/, '');
+        const currentUrl = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+          ? ''
+          : window.location.href.replace(/\/(#)?$/, '');
 
         const procedure_name_corrected = procedure_name
           .toLowerCase()
