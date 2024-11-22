@@ -197,6 +197,10 @@
       {
         "procedure_name": "Wound Debridement",
         "file": "/src/data/gen_surg/wound_debridement.html"
+      },
+      {
+        "procedure_name": "Incision and Drainage (I&D)",
+        "file": "/src/data/gen_surg/incision_drainage.html"
       }
     ],
     "misc": [
