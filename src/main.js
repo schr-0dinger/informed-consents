@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // resultItem.innerHTML = `<p><strong>${procedure_name}</strong></p>
         //                         <p>Category: ${category}</p>
         //                         <p>File: <a href="${file}" target="_blank">${file}</a></p>`;
-        resultItem.innerHTML = `<button type="button" class="btn btn-primary my-1" data-bs-toggle="modal" data-bs-target="#${procedure_name_corrected}Id">
+        resultItem.innerHTML = `<button type="button" class="btn btn-warning white glass my-1" data-bs-toggle="modal" data-bs-target="#${procedure_name_corrected}Id">
         ${procedure_name}
       </button>
     </div>
